@@ -47,6 +47,7 @@ function link_extension {
     ln -srfn "${CARRIAGE_CHANGER_PATH}/berth.py" "${KLIPPER_PATH}/klippy/extras/berth.py"
     ln -srfn "${CARRIAGE_CHANGER_PATH}/dock.py" "${KLIPPER_PATH}/klippy/extras/dock.py"
     ln -srfn "${CARRIAGE_CHANGER_PATH}/carriage_movement.cfg" "${KLIPPER_PATH}/klippy/extras/carriage_movement.cfg"
+    ln -srfn "${CARRIAGE_CHANGER_PATH}/gcode_shell_command.py" "${KLIPPER_PATH}/klippy/extras/gcode_shell_command.py"
 }
 
 function restart_klipper {
