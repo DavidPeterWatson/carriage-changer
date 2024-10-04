@@ -1,6 +1,3 @@
-
-
-
 # Run a shell command via gcode
 #
 # Copyright (C) 2019  Eric Callahan <arksine.code@gmail.com>

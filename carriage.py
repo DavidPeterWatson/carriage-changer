@@ -4,6 +4,7 @@ class Carriage:
         self.name = config.get_name().split(' ')[-1]
         Carriage.validate_name(self.name)
         self.berth = config.get('berth')
+        self.tool_number = config.get('tool_number')
         self.offset_x = float(config.get('offset_x') or 0)
         self.offset_y = float(config.get('offset_y') or 0)
         self.offset_z = float(config.get('offset_z') or 0)
